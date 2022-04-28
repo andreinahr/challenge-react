@@ -1,0 +1,6 @@
+export enum Range {
+  MIN_RANGE_AMOUNT = 5000,
+  MAX_RANGE_AMOUNT = 50000,
+  MIN_RANGE_TERM = 3,
+  MAX_RANGE_TERM = 24,
+}
