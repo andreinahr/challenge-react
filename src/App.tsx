@@ -50,7 +50,7 @@ function App() {
           isCurrency={false}
         />
         <FooterComponent
-          fee={numberLocale(+amount / +term)}
+          fee={numberLocale(amount / term)}
           feeDescription="Cuota Fija Por Mes"
           btnXl="Obtené crédito"
           btnXm="Ver detalle de cuotas"
