@@ -1,6 +1,6 @@
 import { EntryProps } from '../types/EntryProps'
 
-export const EntryCompoenent = ({ id, title, mask, onChange }: EntryProps) => {
+export const EntryComponent = ({ id, title, mask, onChange }: EntryProps) => {
   return (
     <>
       <div className="flex justify-between mt-8 min-w-0">

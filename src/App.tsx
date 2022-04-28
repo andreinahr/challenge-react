@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'rc-slider/assets/index.css'
 import { numberLocale } from './functions/numberLocale'
 import { Range } from './types/Range'
-import { RangeComponent, EntryCompoenent, FooterComponent, LayoutComponent, HeaderComponent } from './components'
+import { RangeComponent, EntryComponent, FooterComponent, LayoutComponent, HeaderComponent } from './components'
 
 function App() {
   const [amount, setAmount] = useState<number>(Range.MIN_RANGE_AMOUNT)
@@ -19,7 +19,7 @@ function App() {
     <LayoutComponent>
       <>
         <HeaderComponent title="Simulá tu crédito" />
-        <EntryCompoenent
+        <EntryComponent
           id="amount"
           title="Monto total"
           minValue={Range.MIN_RANGE_AMOUNT}
@@ -34,7 +34,7 @@ function App() {
           minValue={Range.MIN_RANGE_AMOUNT}
           maxValue={Range.MAX_RANGE_AMOUNT}
         />
-        <EntryCompoenent
+        <EntryComponent
           id="term"
           title="Plazo"
           minValue={Range.MIN_RANGE_TERM}
