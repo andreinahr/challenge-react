@@ -9,6 +9,7 @@ export const RangeComponent = ({ startPoint, minValue, maxValue, onChange, isCur
         <div className="flex-none w-4"></div>
         <div className="grow">
           <Slider
+            value={startPoint}
             startPoint={startPoint}
             defaultValue={startPoint}
             min={minValue}
